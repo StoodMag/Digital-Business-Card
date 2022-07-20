@@ -1,19 +1,4 @@
-# co9024990a9224060f2090a4e
-
-Quick start:
-
-```
-$ yarn # npm install
-$ yarn build # npm run build
-````
-
-## Development
-
-Run Webpack in watch-mode to continually compile the JavaScript as you work:
-
-```
-$ yarn watch # npm run watch
-```
+Click the link to check the project on the Scrimba page: https://scrimba.com/scrim/co9024990a9224060f2090a4e?a=22940.0.18.L14_2
 
 ## About Scrimba
 
