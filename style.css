@@ -1,0 +1,143 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.About, .Interests{
+    margin-left: 25px;
+    margin-bottom: 25px;
+    text-align: left;
+}
+
+body{
+    background-color: #23252C;
+    color: #DCDCDC;
+    height: 850px
+}
+
+.Card{
+    position: absolute;
+    top: 7%;
+    left: 50px;
+    right: 50px;
+    height:690px;
+    width:250px;
+    margin: 0 auto;
+    background-color: #1A1B21;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.Buttons{
+    display: flex;
+    justify-content: center; 
+    margin-bottom: 25px;
+}
+
+.email--btn, .linkedin--btn{
+    border: none;
+    height: 34px;
+    width: 100px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+    font-size: 14px;
+    line-height: 16px;
+    margin: 0 5px;
+    cursor: pointer;
+}
+
+.email--btn, .linkedin--btn:focus{
+    outline: none;
+}
+
+.email--btn{
+    color: #374151;
+}
+
+.email--btn:hover{
+    background-color: #DDDDDD
+}
+
+.fa-envelope, .fa-linkedin-square{
+    padding: 9px;
+    font-size: 15px;
+}
+
+.Footer{
+    background-color:#161619;
+    position: relative;
+    border-radius: 0px 0px 10px 10px;
+    height: 64px;  
+    width: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h3 {
+    font-size: 16px;
+    line-height: 150%;
+    color: #F5F5F5;
+    margin-bottom: 10px
+}
+
+.icon--footer {
+    font-size: 28px;
+    padding: 7px;
+}
+
+.icon--footer:hover{
+    color: #f8edeb;
+}
+
+img{
+    border-radius: 10px 10px 0px 0px;
+    width: 250px
+}
+
+.linkedin--btn{
+    background-color:#5093E2;
+    color: #FFF
+}
+
+.linkedin--btn:hover{
+    background-color: #0077b6
+}
+
+.name--title{
+    font-family: 'Inter', sans-serif;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 30px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-bottom: 4px;
+}
+
+.name--job{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 15px;
+    text-align: center;
+    color: #F3BF99;
+    margin-bottom: 8px;
+}
+
+.p--info{
+    font-weight: 400;
+    font-size: 10.24px;
+    line-height: 150%;
+    max-width: 200px
+}
+
+.website--header{
+    display: block;
+    font-size: 10.24px;
+    line-height: 150%;
+    text-align: center;
+    color: #F5F5F5;
+    text-decoration: none;
+    margin-bottom: 15px;
+}
